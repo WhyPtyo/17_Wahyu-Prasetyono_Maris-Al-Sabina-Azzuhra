@@ -1,2 +1,11 @@
 # 17_Wahyu-Prasetyono_Maris-Al-Sabina-Azzuhra_Code-
-17_Wahyu Prasetyono_Maris Al Sabina Azzuhra_Code
+INTEGRASI DATA PRODUKSI, KONSUMSI, HARGA BAHAN PANGAN, EKSPOR, DAN IMPOR TAHUN 2021-2024 UNTUK MENGATASI KESTABILAN PANGAN DI INDONESIA 
+
+Kelas : 2024D
+
+Disusun oleh : Kelompok 17
+
+Wahyu Prasetyono		(24031554133)
+
+Maris Al Sabina Azzuhra	(24031554188)
+
