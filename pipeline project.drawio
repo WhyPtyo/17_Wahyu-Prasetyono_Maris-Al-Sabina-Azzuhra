@@ -1,0 +1,248 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0" version="29.1.1" pages="2">
+  <diagram name="Pipeline" id="pLYzRYfSCUlfR_kSyNPM">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0" adaptiveColors="auto">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="UvAr1SAMbE6S0-2oeVk8-416" parent="1" style="text;html=1;strokeColor=none;fillColor=none;fontSize=18;fontStyle=1;align=center;verticalAlign=middle;" value="Pipeline Project Integrasi Data Pangan Pokok Indonesia" vertex="1">
+          <mxGeometry height="40" width="700" x="900" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="UvAr1SAMbE6S0-2oeVk8-417" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;align=center;verticalAlign=middle;" value="1. Perumusan Masalah dan Tujuan&#xa;- Menjelaskan pentingnya kestabilan pangan pokok&#xa;- Menetapkan judul dan tujuan project" vertex="1">
+          <mxGeometry height="90" width="420" x="820" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="UvAr1SAMbE6S0-2oeVk8-418" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;align=center;verticalAlign=middle;" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;2. Identifikasi dan Pengumpulan Data&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- Menentukan variabel: produksi, konsumsi, harga, ekspor, impor&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- Mengumpulkan data dari BPS, kementerian, dan sumber lain&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="420" x="820" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="UvAr1SAMbE6S0-2oeVk8-419" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;align=center;verticalAlign=middle;" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;3. Data Understanding dan Dokumentasi Awal&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- Membaca dataset ke dalam notebook&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- Melihat struktur data, satuan, dan periode tahun&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="420" x="820" y="760" as="geometry" />
+        </mxCell>
+        <mxCell id="UvAr1SAMbE6S0-2oeVk8-420" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;align=center;verticalAlign=middle;" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;4. Standarisasi Struktur Data&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- Menyamakan nama kolom (Provinsi, Tahun, Produksi, dll)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- Menyamakan format tahun dan penulisan nama provinsi&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="420" x="820" y="870" as="geometry" />
+        </mxCell>
+        <mxCell id="UvAr1SAMbE6S0-2oeVk8-421" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;align=center;verticalAlign=middle;" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;5. Data Cleaning&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- Menangani missing value dan duplikasi&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- Memperbaiki nilai tidak logis dan tipe data&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="420" x="820" y="980" as="geometry" />
+        </mxCell>
+        <mxCell id="UvAr1SAMbE6S0-2oeVk8-422" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;align=center;verticalAlign=middle;" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;6. Transformasi dan Feature engineering&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- Agregasi bulanan ke tahunan jika diperlukan&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- Konversi satuan&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- Menghitung indikator: selisih produksi dan konsumsi, rasio impor, indikator harga&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="420" x="1320" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="UvAr1SAMbE6S0-2oeVk8-437" edge="1" parent="1" source="UvAr1SAMbE6S0-2oeVk8-423" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" target="UvAr1SAMbE6S0-2oeVk8-424">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UvAr1SAMbE6S0-2oeVk8-423" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;align=center;verticalAlign=middle;" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;7. Integrasi Data Multi Sumber&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- Menggabungkan produksi, konsumsi, harga, ekspor, impor&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- Kunci join: Provinsi dan Tahun (dan Komoditas jika ada)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- Mengecek konsistensi data hasil join&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="420" x="1320" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="UvAr1SAMbE6S0-2oeVk8-424" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;align=center;verticalAlign=middle;" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;8. Exploratory Data Analysis (EDA)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- Statistik deskriptif untuk produksi, konsumsi, harga, ekspor, impor&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- Grafik tren nasional dan per provinsi&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- Opsional: peta sebaran menggunakan GeoJSON provinsi&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="420" x="1320" y="820" as="geometry" />
+        </mxCell>
+        <mxCell id="UvAr1SAMbE6S0-2oeVk8-425" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;align=center;verticalAlign=middle;" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;9. Interpretasi Awal dan Kestabilan Pangan&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- Mengidentifikasi provinsi surplus dan defisit&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- Melihat pola harga dan ketergantungan pada impor&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- Mengaitkan temuan dengan kestabilan pangan nasional&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="420" x="1320" y="970" as="geometry" />
+        </mxCell>
+        <mxCell id="UvAr1SAMbE6S0-2oeVk8-426" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;align=center;verticalAlign=middle;" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;10. Data Publishing dan Dokumentasi&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- Menyimpan raw data, cleaned data, dan integrated data&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- Mendokumentasikan pipeline, kendala, dan rencana pengembangan&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="420" x="1070" y="1120" as="geometry" />
+        </mxCell>
+        <mxCell id="UvAr1SAMbE6S0-2oeVk8-427" edge="1" parent="1" source="UvAr1SAMbE6S0-2oeVk8-417" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;verticalAlign=middle;align=center;" target="UvAr1SAMbE6S0-2oeVk8-418">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UvAr1SAMbE6S0-2oeVk8-428" edge="1" parent="1" source="UvAr1SAMbE6S0-2oeVk8-418" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;verticalAlign=middle;align=center;" target="UvAr1SAMbE6S0-2oeVk8-419">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UvAr1SAMbE6S0-2oeVk8-429" edge="1" parent="1" source="UvAr1SAMbE6S0-2oeVk8-419" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;verticalAlign=middle;align=center;" target="UvAr1SAMbE6S0-2oeVk8-420">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UvAr1SAMbE6S0-2oeVk8-430" edge="1" parent="1" source="UvAr1SAMbE6S0-2oeVk8-420" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;verticalAlign=middle;align=center;" target="UvAr1SAMbE6S0-2oeVk8-421">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UvAr1SAMbE6S0-2oeVk8-431" edge="1" parent="1" source="UvAr1SAMbE6S0-2oeVk8-421" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;verticalAlign=middle;align=center;" target="UvAr1SAMbE6S0-2oeVk8-422">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1300" y="1010" />
+              <mxPoint x="1300" y="590" />
+            </Array>
+            <mxPoint x="1280" y="1025" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UvAr1SAMbE6S0-2oeVk8-432" edge="1" parent="1" source="UvAr1SAMbE6S0-2oeVk8-422" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;verticalAlign=middle;align=center;" target="UvAr1SAMbE6S0-2oeVk8-423">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UvAr1SAMbE6S0-2oeVk8-433" edge="1" parent="1" source="UvAr1SAMbE6S0-2oeVk8-423" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;verticalAlign=middle;align=center;" target="UvAr1SAMbE6S0-2oeVk8-424">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UvAr1SAMbE6S0-2oeVk8-434" edge="1" parent="1" source="UvAr1SAMbE6S0-2oeVk8-424" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;verticalAlign=middle;align=center;" target="UvAr1SAMbE6S0-2oeVk8-425">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UvAr1SAMbE6S0-2oeVk8-435" edge="1" parent="1" source="UvAr1SAMbE6S0-2oeVk8-425" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;verticalAlign=middle;align=center;" target="UvAr1SAMbE6S0-2oeVk8-426">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Flowchart" id="bHrmX4jvcVxET7sc-N7M">
+    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <!-- Title -->
+        <mxCell id="ft1" value="Flowchart Integrasi Data Produksi, Konsumsi, Harga, Ekspor, dan Impor&#xa;untuk Analisis Kestabilan Pangan Pokok di Indonesia" style="text;html=1;strokeColor=none;fillColor=none;fontSize=18;fontStyle=1;align=center;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="150" y="10" width="850" height="50" as="geometry" />
+        </mxCell>
+        <!-- Start -->
+        <mxCell id="f1" value="Start" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="520" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <!-- Proses 1 -->
+        <mxCell id="f2" value="Tentukan Masalah dan Tujuan Project" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="420" y="170" width="320" height="60" as="geometry" />
+        </mxCell>
+        <!-- Proses 2 -->
+        <mxCell id="f3" value="Identifikasi Kebutuhan Data&#xa;(Produksi, Konsumsi, Harga, Ekspor, Impor, Data Pendukung)" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="420" y="260" width="320" height="80" as="geometry" />
+        </mxCell>
+        <!-- Proses 3 -->
+        <mxCell id="f4" value="Kumpulkan Data dari Berbagai Sumber (BPS, Kementerian, dll)" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="420" y="360" width="320" height="70" as="geometry" />
+        </mxCell>
+        <!-- Decision 1 -->
+        <mxCell id="f5" value="Data Lengkap dan Dapat Digunakan?" style="rhombus;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="460" y="460" width="240" height="80" as="geometry" />
+        </mxCell>
+        <!-- Proses perbaiki data jika tidak -->
+        <mxCell id="f6" value="Perbaiki Sumber Data atau Cari Dataset Alternatif" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="120" y="450" width="260" height="80" as="geometry" />
+        </mxCell>
+        <!-- Proses 4 -->
+        <mxCell id="f7" value="Data Understanding dan Standarisasi Struktur&#xa;(Nama Kolom, Format Tahun, Nama Provinsi)" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="420" y="570" width="320" height="90" as="geometry" />
+        </mxCell>
+        <!-- Proses 5 -->
+        <mxCell id="f8" value="Data Cleaning&#xa;(Missing Value, Duplikasi, Nilai Tidak Logis, Tipe Data)" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="420" y="690" width="320" height="90" as="geometry" />
+        </mxCell>
+        <!-- Decision 2 -->
+        <mxCell id="f9" value="Data Sudah Bersih dan Konsisten?" style="rhombus;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="460" y="810" width="240" height="80" as="geometry" />
+        </mxCell>
+        <!-- Proses cleaning ulang (tidak) -->
+        <mxCell id="f10" value="Perbaiki Proses Cleaning" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="120" y="800" width="260" height="70" as="geometry" />
+        </mxCell>
+        <!-- Proses 6 -->
+        <mxCell id="f11" value="Transformasi dan Rekayasa Fitur&#xa;(Agregasi, Konversi Satuan, Indikator Selisih Produksi - Konsumsi, Rasio Impor, Indikator Harga)" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="420" y="920" width="360" height="110" as="geometry" />
+        </mxCell>
+        <!-- Proses 7 -->
+        <mxCell id="f12" value="Integrasi Data&#xa;(Gabungkan Produksi, Konsumsi, Harga, Ekspor, Impor&#xa;dengan Kunci Provinsi dan Tahun)" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="420" y="1060" width="360" height="100" as="geometry" />
+        </mxCell>
+        <!-- Decision 3 -->
+        <mxCell id="f13" value="Integrasi Berhasil dan Sesuai?" style="rhombus;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="470" y="1185" width="240" height="80" as="geometry" />
+        </mxCell>
+        <!-- Periksa kembali kunci join jika tidak -->
+        <mxCell id="f14" value="Periksa Kembali Kunci Join dan Konsistensi Data" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="120" y="1170" width="280" height="80" as="geometry" />
+        </mxCell>
+        <!-- Proses 8 -->
+        <mxCell id="f15" value="Exploratory Data Analysis (EDA)&#xa;Statistik Deskriptif, Grafik Tren, Perbandingan Antar Provinsi, Peta Sebaran (Opsional)" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="420" y="1300" width="380" height="110" as="geometry" />
+        </mxCell>
+        <!-- Proses 9 -->
+        <mxCell id="f16" value="Analisis Kestabilan Pangan&#xa;Interpretasi Surplus - Defisit, Pola Harga, Ketergantungan Impor" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="420" y="1430" width="380" height="100" as="geometry" />
+        </mxCell>
+        <!-- Proses 10 -->
+        <mxCell id="f17" value="Simpan Data Terintegrasi dan Dokumentasi Proses&#xa;Sertakan Kendala dan Rekomendasi" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="420" y="1560" width="360" height="90" as="geometry" />
+        </mxCell>
+        <!-- End -->
+        <mxCell id="f18" value="End" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="520" y="1680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <!-- Edges Flowchart -->
+        <mxCell id="fe1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="f1" target="f2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fe2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="f2" target="f3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fe3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="f3" target="f4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fe4" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="f4" target="f5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <!-- Decision 1 Yes to f7 -->
+        <mxCell id="fe5" value="Ya" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="f5" target="f7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="580" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <!-- Decision 1 No to f6 -->
+        <mxCell id="fe6" value="Tidak" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="f5" target="f6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <!-- f6 back to f4 -->
+        <mxCell id="fe7" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="f6" target="f4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="420" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <!-- f7 to f8 -->
+        <mxCell id="fe8" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="f7" target="f8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <!-- f8 to Decision 2 -->
+        <mxCell id="fe9" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="f8" target="f9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <!-- Decision 2 Yes to f11 -->
+        <mxCell id="fe10" value="Ya" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="f9" target="f11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <!-- Decision 2 No to f10 -->
+        <mxCell id="fe11" value="Tidak" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="f9" target="f10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <!-- f10 back to f8 -->
+        <mxCell id="fe12" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="f10" target="f8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="730" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <!-- f11 to f12 -->
+        <mxCell id="fe13" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="f11" target="f12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <!-- f12 to Decision 3 -->
+        <mxCell id="fe14" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="f12" target="f13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <!-- Decision 3 Yes to f15 -->
+        <mxCell id="fe15" value="Ya" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="f13" target="f15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <!-- Decision 3 No to f14 -->
+        <mxCell id="fe16" value="Tidak" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="f13" target="f14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <!-- f14 back to f12 -->
+        <mxCell id="fe17" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="f14" target="f12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="1110" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <!-- f15 to f16 -->
+        <mxCell id="fe18" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="f15" target="f16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <!-- f16 to f17 -->
+        <mxCell id="fe19" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="f16" target="f17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <!-- f17 to End -->
+        <mxCell id="fe20" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="f17" target="f18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
